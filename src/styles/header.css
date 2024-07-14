@@ -1,0 +1,23 @@
+.logo {
+    font-size: 24px; 
+    font-weight: bold; 
+  }
+  
+  .container nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%; 
+  }
+  
+  .container nav ul {
+    display: flex; 
+    gap: 20px; 
+    list-style: none;
+    padding: 0;
+  }
+  
+  .container nav ul li {
+    padding: 5px 10px; 
+    cursor: pointer; 
+    font-size: 18px;
+  }

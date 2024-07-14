@@ -1,8 +1,11 @@
 import React, {useEffect, useState} from "react";
 import Particles, {initParticlesEngine} from "@tsparticles/react";
 import {loadFull} from "tsparticles";
-import logo from "./logo.svg";
-import "./App.css";
+import { ThemeProvider } from './components/ThemeContext';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Body from './components/Body';
+import './styles/global.css';
 import particlesOptions from "./particles.json";
 
 function App() {
@@ -21,35 +24,14 @@ function App() {
     }, []);
 
     return (
+        <ThemeProvider>
         <div className="App">
             {init && <Particles options={particlesOptions}/>}
-            <header className="App-header">
-                <img src={logo} className="App-logo" alt="logo"/>
-                <p>
-                    Edit <code>src/App.js</code> and save to reload.
-                </p>
-                <p>
-                    Edit <code>src/particles.json</code> to customize Particles, then save
-                    to reload.
-                </p>
-                <a
-                    className="App-link"
-                    href="https://reactjs.org"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Learn React
-                </a>
-                <a
-                    className="App-link"
-                    href="https://particles.js.org"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    See Particles samples
-                </a>
-            </header>
+            {/* <Header /> */}
+            <Body />
+            <Footer />
         </div>
+        </ThemeProvider>
     );
 }
 

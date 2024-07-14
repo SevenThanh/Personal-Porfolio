@@ -1,0 +1,59 @@
+.aboutme-section {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 600px 150px 0 200px;
+}
+  
+.about-personal-title {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: var(--lightest-slate);
+    line-height: 1.1;
+}
+  
+.about-personal-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; 
+    justify-content: space-between;
+}
+  
+.about-personal-text {
+    flex: 1;
+    font-size: 18px;
+    line-height: 1.6;
+    color: var(--light-slate);
+    padding: 20px;
+}
+  
+.about-personal-text p {
+    width: 40rem;
+    word-wrap: break-word;
+    max-width: 800px; 
+}
+  
+.about-personal-image {
+    flex: 0 0 auto;
+    margin-left: 20px;
+}
+  
+.profile-image {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s, filter 0.3s;
+    filter: grayscale(100%);
+}  
+.profile-image:hover {
+    transform: scale(1.05);
+    filter: grayscale(0%);
+}
+  
+.image-description {
+    margin-top: 10px;
+    font-size: 16px;
+    color: var(--light-slate);
+    font-style: italic;
+} 

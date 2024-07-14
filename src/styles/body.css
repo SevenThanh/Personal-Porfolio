@@ -1,0 +1,97 @@
+.bt1, .bt2 {
+    padding: 20px 60px;
+    justify-content: space-between;
+    border: 2px solid white; /* Use the color from the images */
+    font-size: 25px;
+    position: relative;
+    left: 50px;
+    bottom: 50px;
+    background-color: transparent;
+    color: white; 
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.bt1::before, .bt2::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid white; /* Color for the glowing border */
+    transition: transform 0.5s ease;
+    transform: scale(0);
+    z-index: -1;
+}
+
+.bt1:hover::before, .bt2:hover::before {
+    transform: scale(1);
+}
+
+.bt1:hover, .bt2:hover {
+    color: #0a192f; /* Background color from the image */
+    background-color: white; /* Hover background color */
+}
+
+.bt1, .bt2 {
+    position: relative;
+    z-index: 0;
+}
+
+.bt1::after, .bt2::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    background: rgba(100, 255, 218, 0.2); /* Semi-transparent glowing effect */
+    border-radius: 50%;
+    z-index: -1;
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 0.3s ease;
+}
+
+.bt1:hover::after, .bt2:hover::after {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+body {
+    background-color: #0a192f; /* Background color from the image */
+    color: #8892b0; /* Text color from the image */
+}
+
+.body-content {
+    flex-grow: 1;
+    font-size: 60px;
+    position: relative;
+    top: 100px;
+    left: 150px;
+}
+
+.body-image {
+    margin-left: 900px;
+    margin-top: -300px;
+}
+
+.body-image img {
+    width: 300px;
+    height: auto;
+}
+
+.intro {
+    font-size: 30px;
+}
+
+.body-content h1 {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.hi {
+    font-size: 25px;
+    opacity: 0.5;
+    position: relative;
+    bottom: 50px;
+}

@@ -1,0 +1,23 @@
+.App {
+    font-family: var(--font-sans, sans-serif);
+    width: 100%;
+}
+
+/* .header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+} */
+
+
+.body {
+    min-height: 100vh;
+    position: relative;
+    z-index: 1;
+
+}
+
+.footer {
+    padding: 20px;
+    position: relative;
+}
