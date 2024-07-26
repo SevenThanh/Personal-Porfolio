@@ -1,30 +1,36 @@
 import React from 'react';
 import { useTheme } from '../../components/ThemeContext';
 import '../../styles/professional.css';
-import '../../styles/projects.css'
-
-
+import '../../styles/projects.css';
 
 const ProjectData = [
   {
     id: 1,
     title: "Code With Ducks",
-    description:"Leading a team of five to develop a full-stack application that teaches programming to young students, instructed by Stevens students",
+    description: "Developing a full-stack application that teaches programming to young students, instructed by Stevens students",
     img: '/CWD2 copy.png',
-    tags: ['React'],
-    source: 'https://github.com'
+    tags: ['React, ', 'Typescript, ', 'Node.js, ', 'MongoDB'],
+    source: 'https://github.com/Code-With-Ducks'
   },
   {
     id: 2,
     title: 'EngBot',
-    description: "Engbot provides English lessons tailored to the user's background and experience. For instance, a high school student will receive lessons on topics like making friends, asking to use the bathroom, and requesting homework extensions. After each lesson, learners can immediately apply what they've learned to their daily lives. ",
+    description: "Developing a platform that uses AI to provide English lessons tailored to the user's background and experience.",
     img: '/Engbot copy.png',
-    tags: ['React', 'TailwindCSS'],
-    source: 'https://github.com',
+    tags: ['React, ', 'CSS, ', 'Node.js, ', 'MongoDB'],
+    source: 'https://github.com/SevenThanh/EngBot',
     visit: 'https://yoursite.com'
+  },
+  {
+    id: 3, 
+    title: 'LoginAndTalk',
+    description: "A super fast, modern real-time chat application featuring advanced functionalities including light/dark mode, notification sounds, satisfying typing effects, responsive UI design and many more.",
+    img: '/loginandtalk.png',
+    tags: ['React, ', 'Typescript, ', 'Tailwind CSS, ', 'Next.js, ', 'Redis '],
+    source: 'https://github.com/SevenThanh/LoginAndTalk',
+    visit: ''
   }
 ];
-
 
 function Projects() {
   const { theme } = useTheme();
@@ -39,10 +45,11 @@ function Projects() {
                 <img src={project.img} alt={project.title} />
               </div>
               <div className="project-info">
-                <h3>{`${project.id}. ${project.title}`}</h3> 
+                <h3>{`${project.id}. ${project.title}`}</h3>
                 <p>{project.description}</p>
                 <a href={project.source}>View Code</a>
                 {/* {project.visit && <a href={project.visit}>Visit Site</a>} */}
+                <h4>{project.tags}</h4>
               </div>
             </li>
           ))}
@@ -51,6 +58,5 @@ function Projects() {
     </section>
   );
 }
-
 
 export default Projects;

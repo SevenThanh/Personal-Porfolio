@@ -10,6 +10,14 @@ function Experience() {
 
   const experiences = [
     {
+      title: "Software Engineer Fellowship",
+      company: "Headstarter AI",
+      duration: "July 2024 - August 2024",
+      responsibilities: [
+        "Building five AI projects and a final project that develops a startup's current backlog to meet business requirements"
+      ]
+    },
+    {
       title: "Software Developer Intern",
       company: "Inchtone Global",
       duration: "Jan 2024 - May 2024",

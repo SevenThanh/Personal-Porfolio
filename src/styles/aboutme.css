@@ -21,35 +21,30 @@
 }
   
 .about-personal-text {
-    flex: 1;
+    flex: 2;
     font-size: 18px;
     line-height: 1.6;
     color: var(--light-slate);
     padding: 20px;
+
 }
-  
-.about-personal-text p {
-    width: 40rem;
-    word-wrap: break-word;
-    max-width: 800px; 
+
+.about-personal-text li {
+    padding: 5px;
+    font-size: 18px;
 }
+
   
 .about-personal-image {
-    flex: 0 0 auto;
+    flex: 1;
     margin-left: 20px;
 }
   
 .profile-image {
-    width: 50%;
+    width: 100%;
     height: auto;
     border-radius: 10px;
-    transition: transform 0.3s, filter 0.3s;
-    filter: grayscale(100%);
 }  
-.profile-image:hover {
-    transform: scale(1.05);
-    filter: grayscale(0%);
-}
   
 .image-description {
     margin-top: 10px;
