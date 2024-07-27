@@ -40,9 +40,8 @@ function Experience() {
       company: "Stevens Institute of Technology",
       duration: "Oct 2023 - Mar 2024",
       responsibilities: [
-        "Execute data processing tasks including cleaning and formatting with Python",
-        " Employ packages such as Keras to implement machine learning methods to increase accuracy",
-        "Utilize Scipy, Numpy, Pandas for mathematical computation",
+        "Executed data processing tasks including cleaning and formatting with Python, and utilized SciPy, Numpy, Pandas for mathematical computation",
+        "Employed packages such as Keras to implement machine learning methods which improved in 40% accuracy",
         "Responsible for the manual portion of the pre-processing for the research project"
       ]
     }
