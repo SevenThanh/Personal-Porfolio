@@ -18,6 +18,7 @@
 .project-card {
   display: flex;
   align-items: center;
+  
 }
 
 .project-image img {

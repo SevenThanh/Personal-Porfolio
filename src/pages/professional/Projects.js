@@ -9,7 +9,7 @@ const ProjectData = [
     title: "Code With Ducks",
     description: "Developing a full-stack application that teaches programming to young students, instructed by Stevens students",
     img: '/CWD2 copy.png',
-    tags: ['React, ', 'Typescript, ', 'Node.js, ', 'MongoDB'],
+    tags: ['React', 'Typescript', 'Node.js', 'MongoDB'],
     source: 'https://github.com/Code-With-Ducks'
   },
   {
@@ -17,7 +17,7 @@ const ProjectData = [
     title: 'EngBot',
     description: "Developing a platform that uses AI to provide English lessons tailored to the user's background and experience.",
     img: '/Engbot copy.png',
-    tags: ['React, ', 'CSS, ', 'Node.js, ', 'MongoDB'],
+    tags: ['React', 'CSS', 'Node.js', 'MongoDB'],
     source: 'https://github.com/SevenThanh/EngBot',
     visit: 'https://yoursite.com'
   },
@@ -26,7 +26,7 @@ const ProjectData = [
     title: 'LoginAndTalk',
     description: "A super fast, modern real-time chat application featuring advanced functionalities including light/dark mode, notification sounds, satisfying typing effects, responsive UI design and many more.",
     img: '/loginandtalk.png',
-    tags: ['React, ', 'Typescript, ', 'Tailwind CSS, ', 'Next.js, ', 'Redis '],
+    tags: ['React', 'Typescript', 'Tailwind CSS', 'Next.js', 'Redis'],
     source: 'https://github.com/SevenThanh/LoginAndTalk',
     visit: ''
   }
@@ -49,7 +49,7 @@ function Projects() {
                 <p>{project.description}</p>
                 <a href={project.source}>View Code</a>
                 {/* {project.visit && <a href={project.visit}>Visit Site</a>} */}
-                <h4>{project.tags}</h4>
+                <h4>{project.tags.join(', ')}</h4>
               </div>
             </li>
           ))}
