@@ -1,11 +1,3 @@
-Developing my personal website =3=
+When I get paid, I'll buy a domain. For now, you can visit my personal website using the link below :).
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
+my-personal-porfolio-l09b8v044-johan-nguyens-projects.vercel.app
