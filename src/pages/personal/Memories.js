@@ -7,7 +7,7 @@ function Memories() {
   return (
     <div className={theme === 'personal' ? 'personal-theme' : ''}>
       {/* <h2>Memories</h2>
-      <p>Travel to Japan - An unforgettable journey.</p> */}
+      <p></p> */}
     </div>
   );
 }

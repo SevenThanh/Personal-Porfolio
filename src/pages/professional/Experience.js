@@ -10,9 +10,17 @@ function Experience() {
 
   const experiences = [
     {
+      title: "Fullstack Developer Intern",
+      company: "Contentstack",
+      duration: "Sept 2024 - Nov 2024",
+      responsibilities: [
+        "Incoming"
+      ]
+      },
+    {
       title: "Software Engineer Fellowship",
       company: "Headstarter AI",
-      duration: "July 2024 - August 2024",
+      duration: "Jul 2024 - Aug 2024",
       responsibilities: [
         "Building five AI projects and a final project that develops a startup's current backlog to meet business requirements"
       ]
@@ -68,7 +76,7 @@ function Experience() {
                 ref={el => companyRefs.current[index] = el}
                 className={`company-name ${activeIndex === index ? 'active' : ''}`}
                 onClick={() => setActiveIndex(index)}
-              >
+              > 
                 {experience.company}
               </div>
             ))}

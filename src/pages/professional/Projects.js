@@ -8,8 +8,8 @@ const ProjectData = [
     id: 1,
     title: "Code With Ducks",
     description: "Developing a full-stack application that teaches programming to young students, instructed by Stevens students",
-    img: '/CWD2 copy.png',
-    tags: ['React', 'Typescript', 'Node.js', 'MongoDB'],
+    img: '/cwd.png',
+    tags: ['React', 'Typescript', 'CSS', 'Node.js', 'MongoDB'],
     source: 'https://github.com/Code-With-Ducks'
   },
   {
@@ -17,7 +17,7 @@ const ProjectData = [
     title: 'EngBot',
     description: "Developing a platform that uses AI to provide English lessons tailored to the user's background and experience.",
     img: '/Engbot copy.png',
-    tags: ['React', 'CSS', 'Node.js', 'MongoDB'],
+    tags: ['React', 'Tailwind CSS', 'Node.js', 'MongoDB'],
     source: 'https://github.com/SevenThanh/EngBot',
     visit: 'https://yoursite.com'
   },
