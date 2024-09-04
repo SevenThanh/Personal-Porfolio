@@ -12,7 +12,7 @@ function Experience() {
     {
       title: "Fullstack Developer Intern",
       company: "Contentstack",
-      duration: "Sept 2024 - Nov 2024",
+      duration: "Sep 2024 - Nov 2024",
       responsibilities: [
         "Incoming"
       ]
@@ -20,9 +20,10 @@ function Experience() {
     {
       title: "Software Engineer Fellowship",
       company: "Headstarter AI",
-      duration: "Jul 2024 - Aug 2024",
+      duration: "Jul 2024 - Present",
       responsibilities: [
-        "Building five AI projects and a final project that develops a startup's current backlog to meet business requirements"
+        "Build five AI projects and collaborate with a team of 3 to transform a startup's backlog into functional solutions that meet business requirements",
+        "Participate in weekend hackathons and gain insights from CEOs of YC startups and senior software engineers at leading tech companies"
       ]
     },
     {
@@ -40,7 +41,8 @@ function Experience() {
       duration: "Dec 2023 - Present",
       responsibilities: [
         "Collaborating with other student designers and engineers on pro-bono projects to create new brands, design systems, and websites for organizations in the community",
-        "Leading the design and implementation of responsive user interfaces utilizing HTML, Tailwind CSS, React"
+        "Leading the design and implementation of responsive user interfaces for non-profit websites, utilizing HTML, Tailwind CSS, React. ",
+        "Building server-side logic and databases using Express.js"
       ]
     },
     {
