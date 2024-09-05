@@ -14,7 +14,7 @@ function Experience() {
       company: "Contentstack",
       duration: "Sep 2024 - Nov 2024",
       responsibilities: [
-        "Incoming"
+        "..."
       ]
       },
     {
@@ -32,7 +32,7 @@ function Experience() {
       duration: "Jan 2024 - May 2024",
       responsibilities: [
         "Developed and integrated new user registration APIs to streamline sign-up processes, achieving a 30% decrease in user dropout rates during sign-up, accomplished by designing RESTful services with Node.js and Express.js that interfaced with MongoDB",
-        "Optimized database schemas and queries for user registration to improve response times by 30%, accomplished through refining MongoDB document structures and employing efficient indexing strategies"
+        "Optimized database schemas and queries for user registration to improve response times by 50%, accomplished through refining MongoDB document structures and employing efficient indexing strategies"
       ]
     },
     {
