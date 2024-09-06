@@ -10,6 +10,7 @@ import Aboutme from '../pages/personal/Aboutme';
 import professionalImage from '../assets/professional copy.png';
 import personalImage from '../assets/personal copy.png';
 import '../styles/body.css';
+import Contactme from '../pages/professional/Contactme';
 
 
 function Body() {
@@ -41,6 +42,7 @@ function Body() {
             <Education />
             <Experience />
             <Projects />
+            {/* <Contactme /> */}
             <Skills />
           </>
         ) : (
