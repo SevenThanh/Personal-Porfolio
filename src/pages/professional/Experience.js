@@ -40,9 +40,8 @@ function Experience() {
       company: "Stevens Blueprint",
       duration: "Dec 2023 - Present",
       responsibilities: [
-        "Collaborating with other student designers and engineers on pro-bono projects to create new brands, design systems, and websites for organizations in the community",
-        "Leading the design and implementation of responsive user interfaces for non-profit websites, utilizing HTML, Tailwind CSS, React. ",
-        "Building server-side logic and databases using Express.js"
+        "Collaborating with other student designers and engineers on pro-bono projects to create new brands, design systems, and websites for InReach.org",
+        "Leading the design and enhancement of responsive user interfaces, utilizing HTML, Tailwind CSS, and React. Attracting over 10,000 visitors and generating more than 21,000 page-views"
       ]
     },
     {
@@ -50,9 +49,9 @@ function Experience() {
       company: "Stevens Institute of Technology",
       duration: "Oct 2023 - Mar 2024",
       responsibilities: [
+        "Worked alongside PhD students to develop a multi-sensor wearable system, featuring personalized AI and multimodal biofeedback, designed to enhance the movements of older adults at home",
         "Executed data processing tasks including cleaning and formatting with Python, and utilized SciPy, Numpy, Pandas for mathematical computation",
-        "Employed packages such as Keras to implement machine learning methods which improved in 40% accuracy",
-        "Responsible for the manual portion of the pre-processing for the research project"
+        "Employed packages such as Keras to implement machine learning methods which improved in 40% accuracy"
       ]
     }
   ];
