@@ -13,7 +13,7 @@ function Aboutme() {
         <div className='about-personal-container'>
           <div className='about-personal-text'>
             <ul>
-              <li>🤔 Born in a small, rural town in Vietnam, when I was 13, mom asked me if I wanted to come to America with her. Guess what I said?</li>
+              <li>🤔 At 13, my mom asked me if I wanted to come to America with her. Guess what I said?</li>
               <li>🏋 Every day around 4 pm, you'll find me either at the gym or on a basketball court ( not 6ft and not even good T^T).</li>
               <li>🎶 Can't live without music, though, I don't have a specific type; if it's good, it's good.</li>
               <li>😗 Very friendly and chill person, so don't hesitate to reach out. I’m always down for whatever.</li>

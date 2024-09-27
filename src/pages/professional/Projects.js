@@ -7,7 +7,7 @@ const ProjectData = [
   {
     id: 1,
     title: "Code With Ducks",
-    description: "Developing a full-stack application that teaches programming to young students, instructed by Stevens students",
+    description: "Developing a full-stack application that teaches programmingm, machine learning, and artifical intelligence to high school students, especially females and underepresented groups. The project is instructed by Stevens students",
     img: '/cwd.png',
     tags: ['React', 'Typescript', 'CSS', 'Node.js', 'MongoDB'],
     source: 'https://github.com/Code-With-Ducks'
