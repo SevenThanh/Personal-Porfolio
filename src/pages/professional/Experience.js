@@ -12,15 +12,16 @@ function Experience() {
     {
       title: "Fullstack Developer Intern",
       company: "Contentstack",
-      duration: "Sep 2024 - Nov 2024",
+      duration: "Sep 2024 - Oct 2024",
       responsibilities: [
-        "..."
+        "Engineered custom demos using HTML, CSS, JavaScript, and React to create interactive and visually engaging presentations that showcased product features, leading to a 30% increase in business client inquiries",
+        "Integrated both RESTful and GraphQL APIs to showcase the flexibility and power of the headless CMS, exhibiting advanced capabilities in real-time applications"
       ]
       },
     {
       title: "Software Engineer Fellowship",
       company: "Headstarter AI",
-      duration: "Jul 2024 - Present",
+      duration: "Jul 2024 - Sep 2024",
       responsibilities: [
         "Build five AI projects and collaborate with a team of 3 to transform a startup's backlog into functional solutions that meet business requirements",
         "Participate in weekend hackathons and gain insights from CEOs of YC startups and senior software engineers at leading tech companies"
@@ -29,7 +30,7 @@ function Experience() {
     {
       title: "Software Developer Intern",
       company: "Inchtone Global",
-      duration: "Jan 2024 - May 2024",
+      duration: "Jan 2024 - Apr 2024",
       responsibilities: [
         "Developed and integrated new user registration APIs to streamline sign-up processes, achieving a 30% decrease in user dropout rates during sign-up, accomplished by designing RESTful services with Node.js and Express.js that interfaced with MongoDB",
         "Optimized database schemas and queries for user registration to improve response times by 50%, accomplished through refining MongoDB document structures and employing efficient indexing strategies"
@@ -40,12 +41,13 @@ function Experience() {
       company: "Stevens Blueprint",
       duration: "Dec 2023 - Present",
       responsibilities: [
-        "Collaborating with other student designers and engineers on pro-bono projects to create new brands, design systems, and websites for InReach.org",
-        "Leading the design and enhancement of responsive user interfaces, utilizing HTML, Tailwind CSS, and React. Attracting over 10,000 visitors and generating more than 21,000 page-views"
+        "Collaborate with a team of student designers and engineers on pro-bono projects to create new brands, design systems, and websites for InReach.org",
+        "Lead the design and enhancement of responsive user interfaces, utilizing HTML, Tailwind CSS, and React, resulting in over 10,000 visitors and more than 21,000 page-views",
+        "Implement a CMS using Next.js, React, TinaCMS, enabling non-technical users to add, modify, and remove website content easily"
       ]
     },
     {
-      title: "Research Assistant",
+      title: "Undergraduate Research Assistant",
       company: "Stevens Institute of Technology",
       duration: "Oct 2023 - Mar 2024",
       responsibilities: [
