@@ -12,10 +12,11 @@ function Experience() {
     {
       title: "Fullstack Developer Intern",
       company: "Contentstack",
-      duration: "Sep 2024 - Oct 2024",
+      duration: "Sep 2024 - Nov 2024",
       responsibilities: [
-        "Engineered custom demos using HTML, CSS, JavaScript, and React to create interactive and visually engaging presentations that showcased product features, leading to a 30% increase in business client inquiries",
-        "Integrated both RESTful and GraphQL APIs to showcase the flexibility and power of the headless CMS, exhibiting advanced capabilities in real-time applications"
+        "Engineered custom demos using HTML, CSS, JavaScript, and React to create interactive, visually engaging presentations, developing reusable components that reduced demo creation time by 30% and increased business client inquiries by 40%",
+        "Integrated both RESTful and GraphQL APIs to showcase the flexibility and power of the headless CMS, exhibiting advanced capabilities in real-time applications",
+        "Refined the codebase by implementing Jest tests and automated CI/CD pipelines, while building responsive layouts with Tailwind CSS to showcase seamless content delivery across devices, improving demo loading speed by 25%"
       ]
       },
     {
@@ -28,22 +29,23 @@ function Experience() {
       ]
     },
     {
-      title: "Software Developer Intern",
-      company: "Inchtone Global",
-      duration: "Jan 2024 - Apr 2024",
-      responsibilities: [
-        "Developed and integrated new user registration APIs to streamline sign-up processes, achieving a 30% decrease in user dropout rates during sign-up, accomplished by designing RESTful services with Node.js and Express.js that interfaced with MongoDB",
-        "Optimized database schemas and queries for user registration to improve response times by 50%, accomplished through refining MongoDB document structures and employing efficient indexing strategies"
-      ]
-    },
-    {
       title: "Software Developer",
       company: "Stevens Blueprint",
       duration: "Dec 2023 - Present",
       responsibilities: [
-        "Collaborate with a team of student designers and engineers on pro-bono projects to create new brands, design systems, and websites for InReach.org",
-        "Lead the design and enhancement of responsive user interfaces, utilizing HTML, Tailwind CSS, and React, resulting in over 10,000 visitors and more than 21,000 page-views",
-        "Implement a CMS using Next.js, React, TinaCMS, enabling non-technical users to add, modify, and remove website content easily"
+        "Leading a team of 5 student designers and engineers on pro-bono projects to create new brands, design systems, and websites for InReach.org. Implementing a CMS using Next.js, React, TinaCMS, enabling non-technical users to add, modify, and remove website content easily",
+        "Directing the design and improvement of responsive user interfaces, utilizing HTML, Tailwind CSS, and React, attracting over 25,000 visitors and more than 31,000 page-views"
+      ]
+    },
+    {
+      title: "Software Developer Intern",
+      company: "Inchtone Global",
+      duration: "Jan 2024 - Apr 2024",
+      responsibilities: [
+        "Developed an intuitive user interface using React and introduced new user registration APIs, implementing new registration APIs that streamlined the sign-up process and cut user drop-off rates by 60% through effective RESTful services with Node.js and Express.js",
+        "Optimized database schemas and queries to improve user registration response times by 50%, achieved by refining MongoDB document structures and using efficient indexing",
+        "Implemented a payment gateway using Stripe.js, enabling secure and hassle-free transactions for users, resulting in a 30% reduction in user drop-off rates",
+        "Built a support chatbot using React and Express.js, utilizing PyTorch to train an NLP model that automates responses to common user queries, reducing support tickets by 25% and accomplishing 85% user satisfaction rate"
       ]
     },
     {
@@ -51,9 +53,8 @@ function Experience() {
       company: "Stevens Institute of Technology",
       duration: "Oct 2023 - Mar 2024",
       responsibilities: [
-        "Worked alongside PhD students to develop a multi-sensor wearable system, featuring personalized AI and multimodal biofeedback, designed to enhance the movements of older adults at home",
-        "Executed data processing tasks including cleaning and formatting with Python, and utilized SciPy, Numpy, Pandas for mathematical computation",
-        "Employed packages such as Keras to implement machine learning methods which improved in 40% accuracy"
+        "Worked alongside PhD students to develop a multi-sensor wearable system with personalized AI and multimodal biofeedback, designed to enhance the movements of older adults at home",
+        "Executed data processing tasks including cleaning and formatting with Python, and utilized SciPy, Numpy, Pandas for mathematical computation. Employed Keras to implement machine learning methods which improved in 30% accuracy",
       ]
     }
   ];
