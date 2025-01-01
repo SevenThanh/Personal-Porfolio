@@ -1,0 +1,13 @@
+.hobbies-title {
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--lightest-slate);
+    line-height: 1.1;
+    padding: 1rem;
+    margin: 100px 150px 0 200px;
+}
+
+.sub-title  {
+    color: var(--light-slate); 
+    margin-left: 200px;
+}

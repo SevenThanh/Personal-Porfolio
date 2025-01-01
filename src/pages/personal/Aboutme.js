@@ -9,7 +9,7 @@ function Aboutme() {
   return (
     <div className={theme === 'personal' ? 'personal-theme' : ''}>
       <section className='aboutme-section'>
-        <h2 className='about-personal-title'>1. About me :3</h2>
+        <h2 className='about-personal-title'>About me :3</h2>
         <div className='about-personal-container'>
           <div className='about-personal-text'>
             <ul>
@@ -20,10 +20,6 @@ function Aboutme() {
               <li>🌍 Love traveling to different places and experiencing new things. Life is too short; keep an open mind so you don't waste it</li>
               <li>💙 Whoever's reading this, remember to always be kind and love yourself</li>
             </ul>
-          </div>
-          <div className='about-personal-image'>
-            <img src={professionalImage} alt="me" className="profile-image" />
-            <p className='image-description'>Ye this is me.</p>
           </div>
         </div>
       </section>
