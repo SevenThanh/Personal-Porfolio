@@ -45,7 +45,7 @@ function Experience() {
         "Developed an intuitive user interface using React and introduced new user registration APIs, implementing new registration APIs that streamlined the sign-up process and cut user drop-off rates by 60% through effective RESTful services with Node.js and Express.js",
         "Optimized database schemas and queries to improve user registration response times by 50%, achieved by refining MongoDB document structures and using efficient indexing",
         "Implemented a payment gateway using Stripe.js, enabling secure and hassle-free transactions for users, resulting in a 30% reduction in user drop-off rates",
-        "Built a support chatbot using React and Express.js, utilizing PyTorch to train an NLP model that automates responses to common user queries, reducing support tickets by 25% and accomplishing 80% user satisfaction rate"
+        "Built a support chatbot using React and Express.js, utilizing PyTorch to train an NLP model that automates responses to common user queries, reducing support tickets by 80% and accomplishing 5 stars user satisfaction rate"
       ]
     },
     {

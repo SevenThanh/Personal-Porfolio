@@ -48,7 +48,7 @@ function Body() {
         ) : (
           <>
             <Aboutme />
-            <Hobbies />
+            {/* <Hobbies /> */}
             <Memories />
           </>
         )}
