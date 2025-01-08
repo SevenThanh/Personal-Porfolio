@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React, {useEffect, useState} from 'react';
 import { useTheme } from './ThemeContext';
 import Education from '../pages/professional/Education';
 import Experience from '../pages/professional/Experience';
@@ -14,43 +14,45 @@ import Contactme from '../pages/professional/Contactme';
 
 
 function Body() {
-  const { theme, setTheme } = useTheme();
+  const [theme, setTheme] = useState(null);
   const themeClass = theme === 'professional' ? 'professional-theme' : 'personal-theme';
 
-
   return (
-    <div className={`body ${themeClass}` }>
+    <div className={`body ${theme ? themeClass : ''}`}>
       <div className="body-content">
         <p className="intro">Hello there, my name is</p>
         <h1>Johan Nguyen</h1>
-        <p><span className="hi">You want to know me...</span></p>
+        <p><span className="hi">You want to know me... Choose a side ⬇️</span></p>
         <div>
-          <button className="bt1" onClick={() => setTheme('professional')}>Professionally</button>
-          <button className="bt2" onClick={() => setTheme('personal')}>Personally</button>
+          <button className="bt1" onClick={() => setTheme('professional')}>💼 Professionally</button>
+          <button className="bt2" onClick={() => setTheme('personal')}>🙋 Personally</button>
         </div>
       </div>
-      <div className="body-image">
-        {/* {theme === 'professional' ? (
-          <img src={professionalImage} alt="Professional view" />
-        ) : (
-          <img src={personalImage} alt="Personal view" />
-        )} */}
-      </div>
+      {/* <div className="body-image">
+        {theme && (
+          theme === 'professional' ? (
+            <img src={professionalImage} alt="Professional view" />
+          ) : (
+            <img src={personalImage} alt="Personal view" />
+          )
+        )}
+      </div> */}
       <div className="body-details">
-        {theme === 'professional' ? (
-          <>
-            <Education />
-            <Experience />
-            <Projects />
-            {/* <Contactme /> */}
-            <Skills />
-          </>
-        ) : (
-          <>
-            <Aboutme />
-            {/* <Hobbies /> */}
-            <Memories />
-          </>
+        {theme && (
+          theme === 'professional' ? (
+            <>
+              <Education />
+              <Experience />
+              <Projects />
+              <Skills />
+            </>
+          ) : (
+            <>
+              <Aboutme />
+              <Hobbies />
+              <Memories />
+            </>
+          )
         )}
       </div>
     </div>

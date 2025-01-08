@@ -1,15 +1,41 @@
-import React from 'react';
 import { useTheme } from '../../components/ThemeContext';
 import '../../styles/personal.css';
 import '../../styles/hobbies.css';
+import one_x from '../../assets/one_x.png';
+import two_x from '../../assets/two_x.png';
+import three_y from '../../assets/three_y.png';
+import one_y from '../../assets/one_y.png';
+import two_y from '../../assets/two_y.png';
+import four_y from '../../assets/four_y.png';
+import React, { useState } from 'react';
+
+const images = [one_y, one_x, two_y, three_y, two_x, four_y];
 
 function Hobbies() {
   const { theme } = useTheme();
+  const [loadedImages, setLoadedImages] = useState(new Set());
+
+  const handleImageLoad = (index) => {
+    setLoadedImages(prev => new Set([...prev, index]));
+  };
+
   return (
     <div className={theme === 'personal' ? 'personal-theme' : ''}>
-      <section>
-        <div className='hobbies-title'>Hobbies</div>
-        <h2 className='sub-title'>I love taking photos</h2>
+      <div className='hobbies-title'>2. Hobbies</div>
+      <section className='photo-section'>
+        <h2 className='photo-title'>Some of photos I took</h2>
+        <div className='photo-container'>
+          {images.map((image, index) => (
+            <img 
+              key={index} 
+              src={image} 
+              loading={index > 2 ? "lazy" : "eager"}
+              onLoad={() => handleImageLoad(index)}
+              className={loadedImages.has(index) ? 'loaded' : ''}
+              alt={`Photo ${index + 1}`}
+            />
+          ))}
+        </div>
       </section>
     </div>
   );

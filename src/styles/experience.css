@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     padding: 1rem;
-    margin: 200px 150px 0 100px;
+    margin: 100px 150px 0 100px;
 }
 
 .section-title {
@@ -53,24 +53,26 @@
 }
 
 .job-title {
-    font-size: 1.5rem;
+    font-size: 28px;
     font-weight: bold;
 }
 
 .company-name {
-    font-size: 1.2rem;
+    font-size: 20px;
     margin-top: 0.5rem;
 }
 
 .duration {
     margin-top: 0.5rem;
     font-style: italic;
+    font-size: 16px;
 }
 
 .responsibilities {
     margin-top: 1rem;
     list-style-type: disc;
     padding-left: 1.5rem;
+    font-size: 18px;
 }
 
 .responsibilities li {

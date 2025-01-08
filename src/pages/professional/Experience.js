@@ -12,7 +12,7 @@ function Experience() {
     {
       title: "Fullstack Developer Intern",
       company: "Contentstack",
-      duration: "Sep 2024 - Nov 2024",
+      duration: "Sep 2024 - Oct 2024",
       responsibilities: [
         "Engineered custom demos using HTML, CSS, JavaScript, and React to create interactive, visually engaging presentations, developing reusable components that reduced demo creation time by 30% and increased business client inquiries by 40%",
         "Integrated both RESTful and GraphQL APIs to showcase the flexibility and power of the headless CMS, exhibiting advanced capabilities in real-time applications",
@@ -24,8 +24,8 @@ function Experience() {
       company: "Headstarter AI",
       duration: "Jul 2024 - Sep 2024",
       responsibilities: [
-        "Build five AI projects and collaborate with a team of 3 to transform a startup's backlog into functional solutions that meet business requirements",
-        "Participate in weekend hackathons and gain insights from CEOs of YC startups and senior software engineers at leading tech companies"
+        "Built AI projects and collaborate with a team of 3 to transform a startup's backlog into functional solutions that meet business requirements",
+        "Participated in weekend hackathons and gain insights from CEOs of YC startups and senior software engineers at leading tech companies"
       ]
     },
     {

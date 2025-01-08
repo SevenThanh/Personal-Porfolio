@@ -7,7 +7,7 @@ const ProjectData = [
   {
     id: 1,
     title: "Code With Ducks",
-    description: "Developing a full-stack application that teaches programmingm, machine learning, and artifical intelligence to high school students, especially females and underepresented groups. The project is instructed by Stevens students",
+    description: "A program that teaches programmingm, machine learning, and artifical intelligence to high school students, especially females and underepresented minorities.",
     img: '/cwd.png',
     tags: ['React', 'Typescript', 'CSS', 'Node.js', 'MongoDB'],
     source: 'https://github.com/Code-With-Ducks'
@@ -15,7 +15,7 @@ const ProjectData = [
   {
     id: 2,
     title: 'EngBot',
-    description: "Developing a platform that uses AI to provide English lessons tailored to the user's background and experience.",
+    description: "A platform that uses AI to provide English lessons tailored to the user's background and experience.",
     img: '/Engbot copy.png',
     tags: ['React', 'Tailwind CSS', 'Node.js', 'MongoDB'],
     source: 'https://github.com/SevenThanh/EngBot',
