@@ -21,6 +21,59 @@
 .container nav ul li {
   padding: 5px 10px; 
   cursor: pointer; 
-  font-size: 18px;
 }
 
+.container nav ul li button {
+  padding: 20px 60px;
+  justify-content: space-between;
+  border: 2px solid white; 
+  font-size: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+  left: 50px;
+  bottom: 50px;
+  background-color: transparent;
+  color: white; 
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.container nav ul li button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid white; 
+  transition: transform 0.5s ease;
+  transform: scale(0);
+  z-index: -1;
+}
+
+.container nav ul li button:hover::before {
+  transform: scale(1);
+}
+
+.container nav ul li button:hover {
+  color: #0a192f; 
+  background-color: white; 
+}
+
+.container nav ul li button::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300%;
+  height: 300%;
+  background: rgba(100, 255, 218, 0.2); 
+  border-radius: 50%;
+  z-index: -1;
+  transform: translate(-50%, -50%) scale(0);
+  transition: transform 0.3s ease;
+}
+
+.container nav ul li button:hover::after {
+  transform: translate(-50%, -50%) scale(1);
+}

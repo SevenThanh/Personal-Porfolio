@@ -29,7 +29,7 @@ function App() {
                 <div className="particles-container">
                     {init && <Particles options={particlesOptions}/>}
                 </div>
-                {/* <Header /> */}
+                <Header />
                 <Body />
                 <Footer />
             </div>
