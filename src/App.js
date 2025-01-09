@@ -25,12 +25,14 @@ function App() {
 
     return (
         <ThemeProvider>
-        <div className="App">
-            {init && <Particles options={particlesOptions}/>}
-            {/* <Header /> */}
-            <Body />
-            <Footer />
-        </div>
+            <div className="App">
+                <div className="particles-container">
+                    {init && <Particles options={particlesOptions}/>}
+                </div>
+                {/* <Header /> */}
+                <Body />
+                <Footer />
+            </div>
         </ThemeProvider>
     );
 }

@@ -8,12 +8,30 @@ function Header() {
   
   return (
     <header className={`header ${themeClass}`}>
-      <div className="logo">Johan</div>
       <div className="container">
         <nav>
           <ul>
-            <li>Resume</li>
-            <li>Contact</li>
+            <li>
+              <button 
+                onClick={() => window.open('./Johan_Nguyen_Resume.pdf', '_blank', 'noopener,noreferrer')}
+              >
+                Resume
+              </button>
+            </li>
+            <li>
+              <button 
+                onClick={() => window.location.href = 'mailto:johannsevenn@gmail.com'}
+              >
+                Contact
+              </button>
+            </li>
+            <li>
+              <button 
+                onClick={() => window.open('https://github.com/SevenThanh', '_blank', 'noopener,noreferrer')}
+              >
+                Github
+              </button>
+            </li>
           </ul>
         </nav>
       </div>

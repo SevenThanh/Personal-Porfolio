@@ -20,6 +20,12 @@
   align-items: center;
 }
 
+.project-section ol {
+  display: flex;
+  flex-direction: column;
+  gap: 50px; 
+}
+
 .project-image img {
   width: 70%; 
   height: auto;
