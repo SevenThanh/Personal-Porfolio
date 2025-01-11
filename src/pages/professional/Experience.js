@@ -97,6 +97,7 @@ function Experience() {
           </div>
         </div>
       </div>
+      <div id='line'> </div>
     </section>
   );
 }

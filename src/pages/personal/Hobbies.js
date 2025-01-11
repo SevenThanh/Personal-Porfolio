@@ -7,7 +7,7 @@ import three_y from '../../assets/three_y.png';
 import one_y from '../../assets/one_y.png';
 import two_y from '../../assets/two_y.png';
 import four_y from '../../assets/four_y.png';
-import React, { useState } from 'react';
+import React from 'react';
 
 const images = [one_y, one_x, two_y, three_y, two_x, four_y];
 
@@ -18,7 +18,7 @@ function Hobbies() {
     <div className={theme === 'personal' ? 'personal-theme' : ''}>
       <div className='hobbies-title'>2. Hobbies</div>
       <section className='photo-section'>
-        <h2 className='photo-title'>Some of photos I took from my Iphone X</h2>
+        <h2 className='photo-title'>Some of the photos I took with my iPhone X</h2>
         <div className='photo-container'>
           {images.map((image, index) => (
             <img 

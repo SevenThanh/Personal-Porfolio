@@ -1,8 +1,6 @@
 import React from 'react';
 import { useTheme } from '../../components/ThemeContext';
 import '../../styles/aboutme.css';
-import meAndMom from '../../assets/me and mom copy.png';
-import professionalImage from '../../assets/personal copy.png';
 
 function Aboutme() {
   const { theme } = useTheme();
@@ -22,6 +20,7 @@ function Aboutme() {
             </ul>
           </div>
         </div>
+        <div id='line'> </div>
       </section>
     </div>
   );
