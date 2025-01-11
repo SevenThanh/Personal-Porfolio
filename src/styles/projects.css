@@ -29,7 +29,9 @@
 .project-image img {
   width: 70%; 
   height: auto;
-  transition: transform 0.3s ease, filter 0.3s ease;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative; 
+  will-change: transform;
   filter: grayscale(100%) contrast(200%);
   margin-left: 200px; 
   padding-bottom: 50px;

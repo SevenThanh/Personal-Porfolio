@@ -5,32 +5,33 @@ import '../../styles/projects.css';
 
 const ProjectData = [
   {
-    id: 1,
-    title: "Code With Ducks",
-    description: "A program that teaches programmingm, machine learning, and artifical intelligence to high school students, especially females and underepresented minorities.",
-    img: '/cwd.png',
-    tags: ['React', 'Typescript', 'CSS', 'Node.js', 'MongoDB'],
-    source: 'https://github.com/Code-With-Ducks'
+  id: 1,
+  title: "Code With Ducks",
+  description: "A program that teaches programmingm, machine learning, and artifical intelligence to high school students, especially females and underepresented minorities.",
+  img: '/cwd.png',
+  tags: ['React', 'JSX', 'CSS'],
+  source: 'https://github.com/Code-With-Ducks/Code-With-Ducks-'
   },
   {
-    id: 2,
-    title: 'EngBot',
-    description: "A platform that uses AI to provide English lessons tailored to the user's background and experience.",
-    img: '/Engbot copy.png',
-    tags: ['React', 'Tailwind CSS', 'Node.js', 'MongoDB'],
-    source: 'https://github.com/SevenThanh/EngBot',
-    visit: 'https://yoursite.com'
+  id: 2,
+  title: 'EngBot',
+  description: "A platform that uses AI to provide English lessons tailored to the user's background and experience.",
+  img: '/Engbot copy.png',
+  tags: ['React', 'Tailwind CSS', 'Node.js', 'MongoDB'],
+  source: 'https://github.com/SevenThanh/EngBot',
+  visit: 'https://yoursite.com'
   },
   {
-    id: 3, 
-    title: 'LoginAndTalk',
-    description: "A super fast, modern real-time chat application featuring advanced functionalities including light/dark mode, notification sounds, satisfying typing effects, responsive UI design and many more.",
-    img: '/loginandtalk.png',
-    tags: ['React', 'Typescript', 'Tailwind CSS', 'Next.js', 'Redis'],
-    source: 'https://github.com/SevenThanh/LoginAndTalk',
-    visit: ''
+  id: 3, 
+  title: 'LoginAndTalk',
+  description: "A super fast, modern real-time chat application featuring advanced functionalities including light/dark mode, notification sounds, satisfying typing effects, responsive UI design and many more.",
+  img: '/loginandtalk.png',
+  tags: ['React', 'Typescript', 'Tailwind CSS', 'Next.js', 'Redis'],
+  source: 'https://github.com/SevenThanh/LoginAndTalk',
+  visit: ''
   }
 ];
+
 
 function Projects() {
   const { theme } = useTheme();
@@ -48,7 +49,6 @@ function Projects() {
                 <h3>{`${project.id}. ${project.title}`}</h3>
                 <p>{project.description}</p>
                 <a href={project.source}>View Code</a>
-                {/* {project.visit && <a href={project.visit}>Visit Site</a>} */}
                 <h4>{project.tags.join(', ')}</h4>
               </div>
             </li>
@@ -58,5 +58,6 @@ function Projects() {
     </section>
   );
 }
+
 
 export default Projects;

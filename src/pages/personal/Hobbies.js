@@ -13,25 +13,18 @@ const images = [one_y, one_x, two_y, three_y, two_x, four_y];
 
 function Hobbies() {
   const { theme } = useTheme();
-  const [loadedImages, setLoadedImages] = useState(new Set());
-
-  const handleImageLoad = (index) => {
-    setLoadedImages(prev => new Set([...prev, index]));
-  };
 
   return (
     <div className={theme === 'personal' ? 'personal-theme' : ''}>
       <div className='hobbies-title'>2. Hobbies</div>
       <section className='photo-section'>
-        <h2 className='photo-title'>Some of photos I took</h2>
+        <h2 className='photo-title'>Some of photos I took from my Iphone X</h2>
         <div className='photo-container'>
           {images.map((image, index) => (
             <img 
               key={index} 
               src={image} 
-              loading={index > 2 ? "lazy" : "eager"}
-              onLoad={() => handleImageLoad(index)}
-              className={loadedImages.has(index) ? 'loaded' : ''}
+              className={index}
               alt={`Photo ${index + 1}`}
             />
           ))}
