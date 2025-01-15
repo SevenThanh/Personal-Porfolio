@@ -10,7 +10,7 @@ const ProjectData = [
   description: "A program that teaches programmingm, machine learning, and artifical intelligence to high school students, especially females and underepresented minorities.",
   img: '/cwd.png',
   tags: ['React', 'JSX', 'CSS'],
-  source: 'https://github.com/Code-With-Ducks/Code-With-Ducks-'
+  source: 'https://github.com/SevenThanh/Code-With-Ducks'
   },
   {
   id: 2,
@@ -19,7 +19,7 @@ const ProjectData = [
   img: '/Engbot copy.png',
   tags: ['React', 'Tailwind CSS', 'Node.js', 'MongoDB'],
   source: 'https://github.com/SevenThanh/EngBot',
-  visit: 'https://yoursite.com'
+  visit: ''
   },
   {
   id: 3, 

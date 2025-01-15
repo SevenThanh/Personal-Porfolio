@@ -18,7 +18,7 @@ function Hobbies() {
     <div className={theme === 'personal' ? 'personal-theme' : ''}>
       <div className='hobbies-title'>2. Hobbies</div>
       <section className='photo-section'>
-        <h2 className='photo-title'>Some of the photos I took with my iPhone</h2>
+        <h2 className='photo-title'>Some photos I took using my iPhone</h2>
         <div className='photo-container'>
           {images.map((image, index) => (
             <img 
