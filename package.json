@@ -1,7 +1,7 @@
 {
   "name": "personal-web",
   "version": "0.1.0",
-  "homepage": "https://github.com/SevenThanh/seventhanh.github.io",
+  "homepage": "https://seventhanh.github.io",
   "private": true,
   "dependencies": {
     "@tsparticles/engine": "^3.5.0",
