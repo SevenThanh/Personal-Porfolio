@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/SevenThanh/seventhanh.github.io/static/css/main.06d89637.css",
-    "main.js": "/SevenThanh/seventhanh.github.io/static/js/main.a5edcfb3.js",
-    "static/media/four_y.png": "/SevenThanh/seventhanh.github.io/static/media/four_y.5dcad269cd7b7576c55f.png",
-    "static/media/one_x.png": "/SevenThanh/seventhanh.github.io/static/media/one_x.8d1e4aa6ef818fc5c0dd.png",
-    "static/media/two_y.png": "/SevenThanh/seventhanh.github.io/static/media/two_y.eb8f8e6eb92e3a05c146.png",
-    "static/media/three_y.png": "/SevenThanh/seventhanh.github.io/static/media/three_y.0f8af13748fb52ef9332.png",
-    "static/media/one_y.png": "/SevenThanh/seventhanh.github.io/static/media/one_y.726935e1a115a6f33791.png",
-    "static/media/two_x.png": "/SevenThanh/seventhanh.github.io/static/media/two_x.80e04acadea02531664e.png",
-    "static/media/personal copy.png": "/SevenThanh/seventhanh.github.io/static/media/personal copy.54c82472fbc3d7025d13.png",
-    "static/media/professional copy.png": "/SevenThanh/seventhanh.github.io/static/media/professional copy.e130eb10c9eed9e071af.png",
-    "index.html": "/SevenThanh/seventhanh.github.io/index.html",
-    "main.06d89637.css.map": "/SevenThanh/seventhanh.github.io/static/css/main.06d89637.css.map",
-    "main.a5edcfb3.js.map": "/SevenThanh/seventhanh.github.io/static/js/main.a5edcfb3.js.map"
+    "main.css": "/static/css/main.06d89637.css",
+    "main.js": "/static/js/main.e9401bd4.js",
+    "static/media/four_y.png": "/static/media/four_y.5dcad269cd7b7576c55f.png",
+    "static/media/one_x.png": "/static/media/one_x.8d1e4aa6ef818fc5c0dd.png",
+    "static/media/two_y.png": "/static/media/two_y.eb8f8e6eb92e3a05c146.png",
+    "static/media/three_y.png": "/static/media/three_y.0f8af13748fb52ef9332.png",
+    "static/media/one_y.png": "/static/media/one_y.726935e1a115a6f33791.png",
+    "static/media/two_x.png": "/static/media/two_x.80e04acadea02531664e.png",
+    "static/media/personal copy.png": "/static/media/personal copy.54c82472fbc3d7025d13.png",
+    "static/media/professional copy.png": "/static/media/professional copy.e130eb10c9eed9e071af.png",
+    "index.html": "/index.html",
+    "main.06d89637.css.map": "/static/css/main.06d89637.css.map",
+    "main.e9401bd4.js.map": "/static/js/main.e9401bd4.js.map"
   },
   "entrypoints": [
     "static/css/main.06d89637.css",
-    "static/js/main.a5edcfb3.js"
+    "static/js/main.e9401bd4.js"
   ]
 }
