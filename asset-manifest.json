@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SevenThanh/seventhanh.github.io/static/css/main.06d89637.css",
-    "main.js": "/SevenThanh/seventhanh.github.io/static/js/main.2912ed56.js",
+    "main.js": "/SevenThanh/seventhanh.github.io/static/js/main.a5edcfb3.js",
     "static/media/four_y.png": "/SevenThanh/seventhanh.github.io/static/media/four_y.5dcad269cd7b7576c55f.png",
     "static/media/one_x.png": "/SevenThanh/seventhanh.github.io/static/media/one_x.8d1e4aa6ef818fc5c0dd.png",
     "static/media/two_y.png": "/SevenThanh/seventhanh.github.io/static/media/two_y.eb8f8e6eb92e3a05c146.png",
@@ -12,10 +12,10 @@
     "static/media/professional copy.png": "/SevenThanh/seventhanh.github.io/static/media/professional copy.e130eb10c9eed9e071af.png",
     "index.html": "/SevenThanh/seventhanh.github.io/index.html",
     "main.06d89637.css.map": "/SevenThanh/seventhanh.github.io/static/css/main.06d89637.css.map",
-    "main.2912ed56.js.map": "/SevenThanh/seventhanh.github.io/static/js/main.2912ed56.js.map"
+    "main.a5edcfb3.js.map": "/SevenThanh/seventhanh.github.io/static/js/main.a5edcfb3.js.map"
   },
   "entrypoints": [
     "static/css/main.06d89637.css",
-    "static/js/main.2912ed56.js"
+    "static/js/main.a5edcfb3.js"
   ]
 }
