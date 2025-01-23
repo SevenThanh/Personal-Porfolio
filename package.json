@@ -13,6 +13,7 @@
     "tsparticles": "^3.5.0"
   },
   "scripts": {
+    "format": "prettier --write src/**/*.{js,jsx,ts,tsx}",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
@@ -36,6 +37,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.3.0"
+    "gh-pages": "^6.3.0",
+    "prettier": "^3.4.2"
   }
 }
