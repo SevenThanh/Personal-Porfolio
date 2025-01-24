@@ -28,7 +28,7 @@ function Experience() {
       ]
     },
     {
-      title: "Software Developer",
+      title: "Technical Lead Software Developer",
       company: "Stevens Blueprint",
       duration: "Dec 2023 - Present",
       responsibilities: [
