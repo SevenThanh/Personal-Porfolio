@@ -10,6 +10,15 @@ function Experience() {
 
   const experiences = [
     {
+      title: "Technical Lead Software Developer",
+      company: "Stevens Blueprint",
+      duration: "Dec 2023 - Present",
+      responsibilities: [
+        "Led a team of student designers and engineers on pro-bono projects to create new brands, design systems, and websites for InReach.org. Implementing a CMS using Next.js, React, TinaCMS, enabling non-technical users to add, modify, and remove website content easily",
+        "Directed the design and improvement of responsive user interfaces, utilizing HTML, Tailwind CSS, and React, attracting over 28,000 visitors and more than 34,000 page-views"
+      ]
+    },
+    {
       title: "Fullstack Developer Intern",
       company: "Contentstack",
       duration: "Sep 2024 - Oct 2024",
@@ -28,20 +37,12 @@ function Experience() {
       ]
     },
     {
-      title: "Technical Lead Software Developer",
-      company: "Stevens Blueprint",
-      duration: "Dec 2023 - Present",
-      responsibilities: [
-        "Leading a team of student designers and engineers on pro-bono projects to create new brands, design systems, and websites for InReach.org. Implementing a CMS using Next.js, React, TinaCMS, enabling non-technical users to add, modify, and remove website content easily",
-        "Directing the design and improvement of responsive user interfaces, utilizing HTML, Tailwind CSS, and React, attracting over 25,000 visitors and more than 31,000 page-views"
-      ]
-    },
-    {
       title: "Software Developer Intern",
       company: "Inchtone Global",
       duration: "Jan 2024 - Apr 2024",
       responsibilities: [
         "Reduced user registration drop-offs by 60% by creating a streamlined React UI and Node.js/Express.js REST APIs. Improved registration response times by 50% through optimized MongoDB schemas and efficient indexing.",
+        "Improved registration response times by *50%* through optimized *MongoDB* schemas and efficient indexing.",
         "Cut support tickets by 80% and maintained a 5-star rating by building a chatbot with React, Express.js, and a PyTorch NLP model."
       ]
     },

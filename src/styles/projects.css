@@ -74,4 +74,6 @@
   font-family: TT Commons, HelveticaNeueLTStd-Roman, Helvetica, Arial, sans-serif; ;
 }
 
-
+.cwd-description {
+  gap: 20px;
+}

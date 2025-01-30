@@ -7,7 +7,18 @@ const ProjectData = [
   {
   id: 1,
   title: "Code With Ducks",
-  description: "A program that teaches programmingm, machine learning, and artifical intelligence to high school students, especially females and underepresented minorities.",
+  description: [
+    <div  className='cwd-description'>
+      <ul>
+        <li>
+        A program for underrepresented high school students to learn Python, ML, and AI research, later acquired by Stevens Institute of Technology under STEP (Student Development & Enrichment Programs)
+        </li>
+        <li>
+        Developed 100+ pages of curriculum and the program website using JSX, CSS, React, both reviewed and approved by Dr. Rabinovitch (ex-NASA) and Dr. Koskinen (ex-Amazon, IBM Research)
+        </li>
+      </ul>
+    </div>
+  ],
   img: '/cwd.png',
   tags: ['React', 'JSX', 'CSS'],
   source: 'https://github.com/SevenThanh/Code-With-Ducks'
