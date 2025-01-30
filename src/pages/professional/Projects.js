@@ -15,7 +15,7 @@ const ProjectData = [
   {
   id: 2,
   title: 'EngBot',
-  description: "A platform that uses AI to provide English lessons tailored to the user's background and experience. For example, ",
+  description: "A platform that uses AI to provide English lessons tailored to the user's background and experience.",
   img: '/Engbot copy.png',
   tags: ['React', 'Tailwind CSS', 'Node.js', 'MongoDB'],
   source: 'https://github.com/SevenThanh/EngBot',
