@@ -43,7 +43,7 @@ function Experience() {
       responsibilities: [
         "Reduced user registration drop-offs by 60% by creating a streamlined React UI and Node.js/Express.js REST APIs. Improved registration response times by 50% through optimized MongoDB schemas and efficient indexing.",
         "Improved registration response times by *50%* through optimized *MongoDB* schemas and efficient indexing.",
-        "Cut support tickets by 80% and maintained a 5-star rating by building a chatbot with React, Express.js, and a PyTorch NLP model."
+        "Built a support chatbot using React, Express.js, utilizing PyTorch to train an NLP model that automates responses to common user queries, reducing support tickets by 80% and accomplishing 5 stars user satisfaction rate."
       ]
     },
     {
