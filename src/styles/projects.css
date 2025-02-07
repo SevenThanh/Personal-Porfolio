@@ -27,7 +27,7 @@
 }
 
 .project-image img {
-  width: 80%; 
+  width: 70%; 
   height: auto;
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   position: relative; 
@@ -53,8 +53,8 @@
   min-height: 220px;
   min-width: 360px;
   position: relative;
-  top: 140px;
-  right: 100px;
+  top: 120px;
+  right: 80px;
 }
 
 .project-info h4 {
